@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NINJA Words</title>
+</head>
+<body>
+    <!---Header-->
+    <div class="header">
+        <h1>Ninja Word</h1>
+    </div>
+<div class="container">
+  
+    <!---FLEXBOX-->
+    <div class="row"> 
+     
+        <div class="left">
+            <p class="timehead">Time Left</p>
+            <div class="timer"id="timer">5</div>
+        </div>
+
+
+        <div class="center">
+            <h2 id="word"></h2>
+        </div>
+
+
+        <div class="right">
+             <p class="scorehead">Current Score</p>
+             <div class="score" id="score">0</div>
+        </div>
+
+
+    </div>
+<!---END---FLEXBOX-->
+<!--FLEXBOX-->
+    <div class="mainGame">
+        <input class="txtinp" type="text" id="textinp" autocomplete="off" autofocus="auto" placeholder="Type the word here..."/>
+        <h2 id="msg"></h2>
+        <button id="bttn" onclick="updateGame()" style="display: none;">PLAY AGAIN</button>
+    </div>
+<!---CENTER-->
+    <div class="guide">
+        <p>Note : You need to complete typing each word in maximum <span class="sec">5</span> seconds in order to move to the next word. At the point you fail, the game will be over and your points will reset to 0.To play again, just press Play Again . Your score will reset to 0.</p>
+    </div>
+
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
