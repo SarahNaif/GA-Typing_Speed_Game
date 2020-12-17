@@ -13,7 +13,7 @@
 
 ---
 ## Demo 
-[Check the Game](https://pages.git.generalassemb.ly/SarahNaif/Typing_Speed_Game/)
+[Check the Game]( https://sarahnaif.github.io/GA-Typing_Speed_Game/)
 
 <p align="center">
   <img src="https://media.giphy.com/media/RadKh1ZI1K7rVqA478/giphy.gif" alt="gif"/>
